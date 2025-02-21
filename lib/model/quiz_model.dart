@@ -1,5 +1,4 @@
 class QuizModel {
-
   String question;
   List<String> answers;
 
@@ -11,5 +10,4 @@ class QuizModel {
     shuffledAnawers.shuffle();
     return shuffledAnawers;
   }
-
 }
